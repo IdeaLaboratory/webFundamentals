@@ -33,33 +33,34 @@ Attribute value should be in double quote.
 
 ### Tags
 
-#### `<br>` Tag
-The <a> tag is anchor tag defines a hyperlink.
+#### `<br> Tag`
+The `<a>` tag is anchor tag defines a hyperlink.
 
-#### <a> Tag
-The <br> tag produces a line break in text
+#### `<a> Tag`
+The `<br>` tag produces a line break in text
 
-#### <form> Tag
-The <form> tag defines an HTML form that contains controls which enable a user to submit information to a web server. An HTML form is used to capture user information such as username, password, address details etc.
+#### `<form> Tag`
+The `<form>` tag defines an HTML form that contains controls which enable a user to submit information to a web server. An HTML form is used to capture user information such as username, password, address details etc.
 
-#### <input> Tag
-<input> tag is used to create interactive controls within a form.
+#### `<input> Tag`
+`<input>` tag is used to create interactive controls within a form.
 
 
 ## HTML 5:
-<!DOCTYPE html>
-
+`<!DOCTYPE html>`
+`
 * Semantic element
 * Form
 * Media
 * Graphics
-* API
+* API`
 
 #### SemanticElement
 A semantic element clearly describes its meaning to both the browser and the developer.
 This helps webCrawlers to understand page better and provide better result for search engine optimization.
 
 HTML5 Semantic Elements
+```html
 <article>
 <aside>
 <details>
@@ -73,6 +74,7 @@ HTML5 Semantic Elements
 <section>
 <summary>
 <time>
+```
 
 #### attribute and video attribute.
 #### DataList
