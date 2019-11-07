@@ -24,7 +24,11 @@ Empty element:
 | ------------- |:-------------
 | Tr    | Table row
 |Th     | Table header
-|Td     | Table data    
+|Td     | Table data  
+
+### Rules:
+One root element.
+Attribute value should be in double quote.
 
 ### Tags
 
@@ -71,3 +75,29 @@ HTML5 Semantic Elements
 
 #### attribute and video attribute.
 #### DataList
+
+## javaScript
+Developed by Brendan in Netscape in December 4, 1995.
+Initially it was named Mocha, later LiveScript, and finally JavaScript
+Developed for client side Scripting, in 10 days he made.
+Intention was to make easy scripting language for anyone to use.
+
+It was very forgiving language, interpreter proceed with error as well.
+
+In November 1996, Netscape announced a meeting of the Ecma International standards organization to advance the standardization of JavaScript. First edition of ECMA-262 was adopted by the Ecma General Assembly in June 1997.
+
+### DataTypes
+Object, number, undefined, undefined, null.
+
+### Type Coercion
+a=10; b="10"; a==b is true;
+
+#### Extra:
+Define a method, define a class in a old way.
+inherit class with properties
+Prototype.newMethod()
+inherit pro methods
+
+
+
+
