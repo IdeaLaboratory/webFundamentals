@@ -14,6 +14,7 @@ Container element:
 Empty element:
 <br/>
 <img src="image.jpg"/>
+
 |   token  | called as
 | ------------- |:-------------
 | img    | element
@@ -76,7 +77,7 @@ HTML5 Semantic Elements
 #### attribute and video attribute.
 #### DataList
 
-## javaScript
+# javaScript
 Developed by Brendan in Netscape in December 4, 1995.
 Initially it was named Mocha, later LiveScript, and finally JavaScript
 Developed for client side Scripting, in 10 days he made.
@@ -98,6 +99,7 @@ inherit class with properties
 Prototype.newMethod()
 inherit pro methods
 
+## ES6
 
 
 
