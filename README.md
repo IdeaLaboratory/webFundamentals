@@ -4,16 +4,16 @@ Web Fundamentals is made for beginners and developers from standalone applicatio
 ## Basic html
 
 ### Terminology
-<> Tag
-<html> element
+`<>` Tag
+`<html>` element
 
 Container element:
-<html></html>
-<body></body>
+`<html></html>`
+`<body></body>`
 
 Empty element:
-<br/>
-<img src="image.jpg"/>
+`<br/>`
+`<img src="image.jpg"/>`
 
 |   token  | called as
 | ------------- |:-------------
@@ -205,4 +205,3 @@ The @media rule is used in media queries to apply different styles for different
 
 # TypeScript
 // to be updated
-
