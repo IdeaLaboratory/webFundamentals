@@ -14,6 +14,11 @@ Container element:
 Empty element:
 <br/>
 <img src="image.jpg"/>
+|   token  | called as
+| ------------- |:-------------
+| img    | element
+|src     | Attribute
+|lotus.jpg     | Attribute value 
 
 |   Symbol  | Remarks
 | ------------- |:-------------
@@ -23,11 +28,25 @@ Empty element:
 
 ### Tags
 
-#### <a> Tag
+#### <br> Tag
 The <a> tag is anchor tag defines a hyperlink.
 
 #### <a> Tag
-The <a> tag is anchor tag defines a hyperlink.
+The <br> tag produces a line break in text
 
-#### <a> Tag
-The <a> tag is anchor tag defines a hyperlink.
+#### <form> Tag
+The <form> tag defines an HTML form that contains controls which enable a user to submit information to a web server. An HTML form is used to capture user information such as username, password, address details etc.
+
+#### <input> Tag
+<input> tag is used to create interactive controls within a form.
+
+
+## HTML 5:
+<!DOCTYPE html>
+
+* Semantic element
+* Form
+* Media
+* Graphics
+* API
+
