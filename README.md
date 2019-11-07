@@ -160,3 +160,49 @@ class Child extends Demo {
     }
 }
 ```
+
+### DOM
+### BOM
+### Ajax
+### Css
+
+---
+---
+
+
+Use -webkit/moz/ms if that property is not directly available.
+Use web fonts:
+fonts.google.com
+
+### Animation:
+Transition, KeyFrame.
+
+#### Transition:
+transitions allows you to change property values smoothly, over a given duration.
+#### KeyFrame:
+Define keyframe "@keyframes example {" 
+```javascript
+position: relative;
+```
+
+### Responsiveness:
+	1. Meta
+	2. FlexBox
+	3. Column
+    4. MediaQuery
+
+#### Meta:
+content="width=device-width, initial-scale=1.0"
+
+#### FlexBox:
+flex-container:
+flex-wrap: nowrap;
+
+#### @media:
+The @media rule is used in media queries to apply different styles for different media types/devices.
+
+
+
+# TypeScript
+// to be updated
+
