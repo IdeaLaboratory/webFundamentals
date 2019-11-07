@@ -50,3 +50,24 @@ The <form> tag defines an HTML form that contains controls which enable a user t
 * Graphics
 * API
 
+#### SemanticElement
+A semantic element clearly describes its meaning to both the browser and the developer.
+This helps webCrawlers to understand page better and provide better result for search engine optimization.
+
+HTML5 Semantic Elements
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+#### attribute and video attribute.
+#### DataList
