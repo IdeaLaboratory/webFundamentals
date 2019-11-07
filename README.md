@@ -102,6 +102,61 @@ Prototype.newMethod()
 inherit pro methods
 
 ## ES6
+#### Scope:
+⋅⋅* Global scope
+⋅⋅* Function scope
+⋅⋅* Block scope
 
+Let, const = Both let and const are block scope.
 
+Code link:
 
+Note: In ES5, we can declare only one variable in a function scope.
+If we define two by any chance, JS will not give any error but the last assign value will be retain..
+This called "Features of hoisting".
+
+#### Default arguments:
+
+Fun(a,b,c=0)
+Code link:
+
+#### Template literals
+Syntax
+`string text`
+This can contain almost anything in between including multiline.
+
+#### Arrow function
+```javascript
+hello = () => {
+  return "Hello World!";
+}
+```
+
+#### Class
+Note: Function vs Method
+Function outside of the class and Method inside of a class.
+
+* Cannot over load function, method or constructor.
+
+##### Base constructor is not call by default, we should call super() to call base constructor.
+```javascript
+class Demo {
+    constructor(id, name) {
+        console.log("Constructor of Demo");
+        this.id = id;
+        this.name = name;
+    }
+    disp() {
+        console.log("Method");
+    }
+}
+class Child extends Demo {
+    constructor() {
+        super();
+        console.log("Const of ChildDemo");
+    }
+    disp() {
+        console.log("Overridden Method");
+    }
+}
+```
