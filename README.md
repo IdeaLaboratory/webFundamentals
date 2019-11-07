@@ -5,14 +5,19 @@ Web Fundamentals is made for beginners and developers from standalone applicatio
 
 ### Terminology
 `<>` Tag
+
 `<html>` element
 
 Container element:
+
 `<html></html>`
+
 `<body></body>`
 
 Empty element:
+
 `<br/>`
+
 `<img src="image.jpg"/>`
 
 |   token  | called as
