@@ -33,7 +33,7 @@ Attribute value should be in double quote.
 
 ### Tags
 
-#### <br> Tag
+#### `<br>` Tag
 The <a> tag is anchor tag defines a hyperlink.
 
 #### <a> Tag
