@@ -1,10 +1,12 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 @Component({
     selector: 'tform',
     templateUrl: "tform.component.html"
 })
 
-export class TFormComponent {
-
+export class TFormComponent  {
+   OnSubmit(data){
+       console.log(data);
+   }
 }

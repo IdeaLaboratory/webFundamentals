@@ -8,12 +8,12 @@ import { RetiredPipe } from './retired.pipe';
 import { HttpClientModule } from "@angular/common/http";
 import { CallServiceComponent } from './callService.component';
 import { TFormComponent } from './tform.component';
-import { AbcComponent } from './abc/abc.component';
+import {FormsModule  } from "@angular/forms";
 
 @NgModule({
-    imports: [BrowserModule, HttpClientModule],
+    imports: [BrowserModule, HttpClientModule,FormsModule],
     declarations: [AppComponent, AnotherComponent, NestedComponent, GenderPipe, RetiredPipe,
-        CallServiceComponent, TFormComponent, AbcComponent],
+        CallServiceComponent, TFormComponent],
     bootstrap: [AppComponent, AnotherComponent, NestedComponent]
 })
 

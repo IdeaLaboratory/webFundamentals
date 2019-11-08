@@ -9,14 +9,15 @@
 </head>
 
 <body>
-  <form action="">
-    <table>
+  <!---->
+  <form #tform="ngForm" (ngSubmit)="OnSubmit(tform.value)">
+    <table border="2">
       <tr>
         <td>
           Name:
         </td>
         <td>
-          <input type="text">
+          <input type="text" name="name1" ngModel>
         </td>
       </tr>
       <tr>
@@ -44,7 +45,7 @@
         </td>
         <td>
           Travel<input type="checkbox" name="hobbyTravel" id="hobbies">
-          Social work<input type="checkbox" name="hobbySW" id="hobbies">
+          Social work<input type="checkbox" name="hobbySW" id="hobby">
         </td>
       </tr>
       <tr>
