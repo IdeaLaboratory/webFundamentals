@@ -7,8 +7,8 @@ import { RESTAPIService } from './restapi.service';
     template: `<h1>HTTP service</h1>
     <table border=2>
     <tr *ngFor="let e of post">
-    <td>{{e.userID}}</td>
     <td>{{e.id}}</td>
+    <td>{{e.title}}</td>
     </tr>
     </table>`,
     providers: [RESTAPIService]
