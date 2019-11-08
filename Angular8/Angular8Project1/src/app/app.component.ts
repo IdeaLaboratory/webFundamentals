@@ -17,8 +17,13 @@ import { Component } from '@angular/core'
         <td>{{e.ename}}</td>
         <td>{{e.gender  | gender}}</td>
         <td>{{e.sal | currency:"INR"}}</td>
+        <td><div *ngIf="e.sal > 50000">**</div></td>
         <td>{{e.retired | retired}}</td>
         <td>{{e.doj | date:'dd/MM/yyyy'}}</td>
+        <td>
+        <img *ngIf="e.retired"  width="50" height="50" src="https://www.trzcacak.rs/myfile/detail/3-33517_15-smiley-face-png-for-free-on-mbtskoudsalg.png"/>
+        <img *ngIf="!e.retired" width="50" height="50" src="https://i.pinimg.com/originals/72/a8/91/72a8910613b3df0b066ad2fabf1284a2.png"/>
+        </td>
         </tr>
     </table>`                                                           /*{{emps|json}}*/
 })
