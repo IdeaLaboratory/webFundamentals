@@ -4,13 +4,7 @@ import { RESTAPIService } from './restapi.service';
 //@injectable not require. I am allowing DI in this class.
 @Component({
     selector: 'service',
-    template: `<h1>HTTP service</h1>
-    <table border=2>
-    <tr *ngFor="let e of post">
-    <td>{{e.id}}</td>
-    <td>{{e.title}}</td>
-    </tr>
-    </table>`,
+    templateUrl: "callService.component.html",
     providers: [RESTAPIService]
 })
 export class CallServiceComponent {
