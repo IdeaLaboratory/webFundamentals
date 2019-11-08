@@ -5,6 +5,7 @@ import { Component } from '@angular/core'
     template: `<h1>My First Component by {{name}}</h1>
     <nested></nested>
     <h2>Hi</h2>
+    <service></service>
     <h1><i>{{games}}</i></h1>
     <ul>
     <li *ngFor="let g of games">{{g}}</li>

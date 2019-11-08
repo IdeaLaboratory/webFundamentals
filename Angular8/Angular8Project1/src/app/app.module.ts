@@ -6,10 +6,11 @@ import { NestedComponent } from "./nested.component";
 import { GenderPipe } from './gender.pipe';
 import { RetiredPipe } from './retired.pipe';
 import { HttpClientModule } from "@angular/common/http";
+import { CallServiceComponent } from './callService.component';
 
 @NgModule({
     imports: [BrowserModule, HttpClientModule],
-    declarations: [AppComponent, AnotherComponent, NestedComponent, GenderPipe, RetiredPipe],
+    declarations: [AppComponent, AnotherComponent, NestedComponent, GenderPipe, RetiredPipe, CallServiceComponent],
     bootstrap: [AppComponent, AnotherComponent, NestedComponent]
 })
 
