@@ -252,4 +252,30 @@ Interface to communicate two program (most likely public).
 #### REST
 PHD research. GET 4 read, PUT 4 update, POST 4 create, DELETE 4 delete and PATCH also 4 update.
 [use all this to completely, how?]
+If I do not use REST and I use WebAPI, I can only get or post not all 5 as Rest.
 
+#### DI : Dependency Injection
+```javascript
+Emp emp = new Emp();
+fun(emp);
+
+fun(Emp emp)	//creates a new reference which points to the same object of Emp();
+{
+
+}
+```
+#### Note: 
+```typescript
+class Demo{
+	a=0;
+	constructor(a){
+		this.a= a;
+	}
+}
+
+// in TypeScript
+class Demo{
+	constructor(private a){
+	}
+}
+```
