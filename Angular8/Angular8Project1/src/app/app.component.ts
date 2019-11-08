@@ -15,11 +15,9 @@ import { Component } from '@angular/core'
         <tr *ngFor="let e of emps">
         <td>{{e.eid}}</td>
         <td>{{e.ename}}</td>
-        <td>{{e.ename   | slice:2}}</td>
-        <td>{{e.ename   | slice:2:-3}}</td>
         <td>{{e.gender  | gender}}</td>
         <td>{{e.sal | currency:"INR"}}</td>
-        <td>{{e.retired}}</td>
+        <td>{{e.retired | retired}}</td>
         <td>{{e.doj | date:'dd/MM/yyyy'}}</td>
         </tr>
     </table>`                                                           /*{{emps|json}}*/
