@@ -7,10 +7,13 @@ import { GenderPipe } from './gender.pipe';
 import { RetiredPipe } from './retired.pipe';
 import { HttpClientModule } from "@angular/common/http";
 import { CallServiceComponent } from './callService.component';
+import { TFormComponent } from './tform.component';
+import { AbcComponent } from './abc/abc.component';
 
 @NgModule({
     imports: [BrowserModule, HttpClientModule],
-    declarations: [AppComponent, AnotherComponent, NestedComponent, GenderPipe, RetiredPipe, CallServiceComponent],
+    declarations: [AppComponent, AnotherComponent, NestedComponent, GenderPipe, RetiredPipe,
+        CallServiceComponent, TFormComponent, AbcComponent],
     bootstrap: [AppComponent, AnotherComponent, NestedComponent]
 })
 

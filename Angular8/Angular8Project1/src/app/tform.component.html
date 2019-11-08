@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+
+<body>
+  <form action="">
+    <table>
+      <tr>
+        <td>
+          Name:
+        </td>
+        <td>
+          <input type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Password:
+        </td>
+        <td>
+          <input type="password">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gender:
+        </td>
+        <td>
+          Male: <input type="radio" name="gender" value="M">
+        </td>
+        <td>
+          Female: <input type="radio" name="gender" value="F">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Hobbies:</label>
+        </td>
+        <td>
+          Travel<input type="checkbox" name="hobbyTravel" id="hobbies">
+          Social work<input type="checkbox" name="hobbySW" id="hobbies">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Address
+        </td>
+        <td>
+          <textarea name="address" id="address" cols="30" rows="10">Default address</textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Qualifiaction:
+        </td>
+        <td>
+          <select name="qualification" id="qualification">
+            <option value="BTech">BTech</option>
+            <option value="MTech">MTech</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          File:
+        </td>
+        <td>
+          <input type="file" name="file" id="file">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit" name="submit" id="submit">
+          Reset<input type="reset">
+        </td>
+      </tr>
+    </table>
+
+  </form>
+</body>
+
+</html>
