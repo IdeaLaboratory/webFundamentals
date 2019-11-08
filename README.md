@@ -210,3 +210,43 @@ The @media rule is used in media queries to apply different styles for different
 
 # TypeScript
 // to be updated
+
+# Angular
+
+
+
+
+
+
+
+
+
+
+#### Define custom pipe
+code link:
+
+#### Component
+Is for specific task, usually smaller than library. But can use multiple library in a component.
+
+#### Module
+
+##### Library
+Pre written code to be reused 
+
+##### Framework
+Pre written code, contains multiple library.
+
+#### Platform
+It is a running environment.
+
+#### Service
+A running process (mostly running somewhere else in the backgound) which serve on client action.
+It should have specific architecture.
+
+#### webService
+Has to be on the web, called via http/https.
+
+#### API
+Interface to communicate two program (most likely public).
+
+#### REST
