@@ -250,3 +250,6 @@ Has to be on the web, called via http/https.
 Interface to communicate two program (most likely public).
 
 #### REST
+PHD research. GET 4 read, PUT 4 update, POST 4 create, DELETE 4 delete and PATCH also 4 update.
+[use all this to completely, how?]
+
