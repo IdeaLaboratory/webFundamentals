@@ -243,6 +243,13 @@ It is a running environment.
 A running process (mostly running somewhere else in the backgound) which serve on client action.
 It should have specific architecture.
 
+Service returns 'Promise'. [Observable, ]
+```Javascript
+Promise -> .then(success,failure)
+Observable -> .subscribe(next, error, complete) //prefered
+
+```
+
 #### webService
 Has to be on the web, called via http/https.
 
@@ -250,7 +257,9 @@ Has to be on the web, called via http/https.
 Interface to communicate two program (most likely public).
 
 #### REST
-PHD research. GET 4 read, PUT 4 update, POST 4 create, DELETE 4 delete and PATCH also 4 update.
+PHD research. 
+GET 4 read, PUT 4 update, POST 4 create, DELETE 4 delete and PATCH also 4 update.
+
 [use all this to completely, how?]
 If I do not use REST and I use WebAPI, I can only get or post not all 5 as Rest.
 
